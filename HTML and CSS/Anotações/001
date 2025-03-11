@@ -1,0 +1,119 @@
+
+/*
+
+----------HTML HTML HTML HTML HTML---------
+
+w3school - estudar mais
+<h1>(Headind = Cabeçalho )</h1> - Vai até h6, quanto menor o número, menor a letra
+<p>(Paragráfo)</p> - Definir que é um parágrafo (sempre bom)
+<u> </u> Texto sublinhado
+<hr/> Uma linha horizontal (abre e fecha dela mesma)
+<a href="(link)">cliquei aqui para acessar< /a> - para atribuir um link
+<img src="https://www.google.com.br/logos/google.jpg" alt="..." width="300px" height="100px"/>
+<button>Clique em mim</button> - cria um botão
+<br/> (fecha nele mesmo) - quebra uma linha
+<ul> <ul/> - cria uma lista desordenada ( não aprece com os numeros)
+<ol> <ol/> - cria uma lista ordenada - em numereção
+<li> <li/> - itens da lista
+
+<div> </div> - um lugar imaginario ( tem que ter altura e largura)
+(PARA CRIAR UM CIRCULO, EU TENHO QUE COLOCAR O BORDER-RADIUS COM METADE DO TAMANHO DO QUADRADO)
+
+<a href="(link do site ou nome do arquivo)"> </a>
+Para fazer com que vá param uma aba que não esteja na mesma pasta: 
+- coloque antes do nome do arquivo, o nome da página/ (paginas/html.html)
+- target="_blank" para abrir em uma nova página
+title="" Para quando colocar o mouse em cima do link, ele aparecer o nome que colocou
+
+Pode-se linkar também usando o Id. Exemplo: <a href="#area7"> ... </a>
+
+Tags do HTML:
+
+- <b> </b> - deixa o texto em negritos
+- <strong > </strong> - Também deixa o texto em negrito - *Sempre usar ela
+* Ambos fazem a mesma coisa, o strong = SEMÂNTICA DE IMPORTANCIA (USADO PARA PESSOAS COM NECESSIDADES ESPECIAIS)
+JÁ O <b> </b> ELE NÃO TEM ISSO, APENAS DEIXA EM NEGRITO.
+
+- <i> </i> - deixa o texto em itálico
+- <em> </em> - deixa o texto em itálico também = Usar esse
+* Ambos fazem a mesma coisa, o <em>= SEMÂNTICA DE IMPORTANCIA (USADO PARA PESSOAS COM NECESSIDADES ESPECIAIS)
+JÁ O <i> </i> ELE NÃO TEM ISSO, APENAS DEIXA EM NEGRITO.
+
+- <small> </small> - deixa o texto menor com o padrão, se adpta ao tamanmho da página
+
+- <del> </del> - risca o texto no meio
+
+- <mark> </mark> - destaca o texto, como se fosse marca texto mesmo
+
+- <sup> </sup> - Levanta o texto selecionado: Por exemplo: 1o = 1°
+
+- <sub> </sub> - Faz o contrário  do sup
+
+- <!-- --> - comentário em html e css
+
+
+
+
+*/
+
+
+/*
+
+----------CSS CSS CSS CSS CSS CSS----------
+
+Três formas de inserção do CSS no HTML:
+
+- CSS inline - CSS na propria linha do codgio
+- CSS Interno -
+- CSS Externo -
+
+<link rel="stylesheet" href="estilo.css"/> - css externo
+Id = "" - serve para especificar um elemento ( #(nome do Id) Para selecionar no CSS)
+class="" - onde eu colocar o nome entre as aspas, vai alterar as propriedades do css
+background-color:(cor) - define a cor do fundo
+border: (tamanhodaborda px) (tipo de porda) (cor da borda)
+ - <hr> cria uma linha
+
+- Tipos de borda : Solid ( borda solida padrão), 
+- dotted (pontilhada)
+- dashed (quadriculada)
+- double (retangular)
+- groove ( mesma coisa da solid, porém mais escura)
+- inset ( duas cores ) - outset (a mesma coisa, porém muda o ladodas cores)
+
+border-bottom - Coloca borda apenas na parte de baixo (como se fosse sublinhado)
+border-top (na parte de cima, left na esquerda e right na direita)
+border-radius: (numeroPX) - arredonda a borda
+
+Padding - espaçamento interno do meu elemento
+Margins - Espaçamento externo do elemento
+( eu posso usar em ordem horario os parametros: padding 10px 15 px 50px 10 px (encima, direita, embaixo e esquerda))
+
+Width e Height - (auto, px, %) - inherit (HERDA A LARGURA DO ITEM ANTERIOR)
+max-width 0px - define a largura maxima que um item pode atingir
+min-width 0px - define o tamanho minimo da imagem
+
+*{}box-sizing:border-box; - tira o tamanho extra que esta seobre o elemnto ( do padding e do border  )
+
+.link:hove{} - um estado de mouse em cima
+.link:visited{} - um estado de que já acessou aquele navegador
+
+Tags do CSS:
+
+- font-weight: bold; - deixa o texto em negrito
+- font-family: ; - Troca a fonte do texto (se não tiver a fotne no computador, usa-se uma virgula 
+  depois dela e adiciona outra fonte, será subistituida) ['Poppins', sans-serif; legal de se usar]
+- text-align (left, center, right, justify) - alinhamento de texto
+- Na tag <a></a>, para tirar o sublinhado que fica por padrão, usa o "text-decoration: none;"
+- text-transform: uppercase; - Deixa todo o texto em caixa alta
+- text-transform: lowercase; - Deixa todo o texto em letra minúscula
+- letter-spacing: - Espaçamento entre uma letra e outra
+- word-spacing: - Espaçamento entre uma palavra e outra
+-  line-height: define a altura entre uma frase e outra, ou entre uma linha e outra
+
+- text-shadow: 0px 2px 3px #d3d0d0 ; (os quatro itens são obrigatórios)
+. Sendo o primeiro valor a sombra para a direita
+. O segundo valor é para quão pra baixo a sombra vai
+. O terceiro é o esfumaçamento da sombra;
+
+*/
