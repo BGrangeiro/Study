@@ -1,1 +1,11 @@
+# Conversão de tipos, coerção  
+# Type convertion, typecasting, coercion  
+# É o ato de converter um tipo em outro  
+# Tipos imutáveis e primitivos:  
+# str, int, float, bool  
 
+print('a' + 'b')  
+#print('1' + 1) Vai me gerar um error
+print(int('1'), type(int('1')))  # Conversão ou typecasting
+print(int('1') + 1)
+print(float('1.2') + 1)
