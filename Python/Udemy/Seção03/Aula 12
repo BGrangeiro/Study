@@ -1,17 +1,15 @@
-nome = 'Luiz Otávio'
-altura = 1.80
-peso = 95
+#Formatação de Strings F-STRINGS
+
+altura, nome, peso = 1.75, 'Bruno Henrique', 72
 imc = peso / altura ** 2
 
-"f-strings"
-linha_1 = f'{nome} tem {altura:.2f} de altura,'
-linha_2 = f'pesa {peso} quilos e seu imc é'
-linha_3 = f'{imc:.2f}'
-
+linha_1 = f'{nome} \ntem {altura} \nde altura e seu imc é {imc:.3f}'
 print(linha_1)
-print(linha_2)
-print(linha_3)
 
-# Luiz Otávio tem 1.80 de altura,
-# pesa 95 quilos e seu IMC é
-# 29.320987654320987
+# Função Format
+ 
+a, b, c = 'A' , 'B', '1.154'
+c = float(float(c))
+string = 'a = {name1} b = {name2} c = {name3:.2f} c = {name3}'
+formato = string.format(name1 = a, name2 = b, name3 = c) # Parametro Nomeado
+print(formato)
