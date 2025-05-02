@@ -1,0 +1,44 @@
+""""
+# IF and ELSE
+ entrada = input('Você deseja entrar ou sair do jogo?: ')
+
+if entrada == 'entrar' :
+    print ('Voce entrou no jogo!')
+
+elif entrada == 'sair':
+    print('voce saiu do jogo!')
+
+else:
+    print('Voce não digitou corretamente!')
+
+# Continuação
+"""
+
+condicao = False
+
+if condicao:
+    print('Código do IF executado!')
+    
+else: print('codigo não executado!')
+
+if condicao == False:
+    print('Código do IF 2.0 executado!')
+
+
+"""
+Operadores de comparação (relacionais)
+OP      Significado         Exemplo (True)
+>       maior               2 > 1
+>=      maior ou igual      2 >= 2
+<       menor               1 < 2
+<=      menor ou igual      2 <= 2
+==      igual               'a' == 'a'
+!=      diferente           'a' != 'b'
+"""
+maior = 2 > 1
+maior_ou_igual = 2 >= 2
+menor = 1 < 2
+menor_ou_igual = 2 <= 2
+igual = 'a' == 'a'
+diferente = 'a' != 'b'
+print('Olha meu print aqui')
