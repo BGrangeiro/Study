@@ -1,0 +1,14 @@
+nome = input('Qual o seu nome? ') # Recebe a informação sempre no tipo string
+print(f' {nome = }  e o seu tipo é: ', type(nome)) # Siunal de igual replica o nome 'nome' (python 3.8 +)d
+
+#Transformando em inteiro ou float
+
+numero_1 = input('digite um número: ')
+numero_2 = input('digite outro um número: ')
+
+print(type(numero_1))
+print(type(numero_2))
+
+print(numero_1 + numero_2) # Faz a concatenação
+soma = int(numero_1) + int(numero_2) #Transformando em int
+print(f'A soma dos números é : {soma}')
