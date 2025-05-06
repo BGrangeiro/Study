@@ -1,0 +1,40 @@
+# 1° Leia um numero fornecido pelo usuario. Se esse numero for positivo, calcule a raiz
+#quadrada do numero. Se o numero for negativo, mostre uma mensagem dizendo que o numero e invalido.
+
+# 2° Leia um numero real. Se o numero for positivo imprima a raiz quadrada. Do contrario, imprima o numero ao quadrado.
+
+# 3° . Faça um programa que receba um numero inteiro e verifique se este numero é par ou impar.
+
+
+# 1°
+numero = int (input('Digite um número: '))
+raiz_quadrada = numero ** 0.5
+print(
+
+    f'O quadrado de {numero} é: {raiz_quadrada:.4}' if numero > 0 else
+    f'O numero é negativo, invalido ou {numero = }' # ou numero == 0
+)
+
+
+
+# 2°
+
+numero = int (input('Digite um número: '))
+raiz_quadrada = numero ** 0.5
+print(
+    
+    f'O {numero = }, digite outro numero' if numero == 0 else
+    f'O quadrado de {numero} é: {raiz_quadrada:.4}' if numero > 0 else
+    f'O numero é negativo e ele ao quadrado é: {numero ** 2}'
+
+)
+
+
+# 3°
+numero = int (input('Digite um número: '))
+
+print(
+
+    f'O numero {numero} é par' if numero % 2 == 0 else
+    f'O numero {numero} é impar'
+)
