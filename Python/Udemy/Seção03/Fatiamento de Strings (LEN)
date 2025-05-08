@@ -1,0 +1,23 @@
+#Fatiamento de strings e a função len
+
+"""
+Fatiamento de strings
+ 012345678
+ Olá mundo
+-987654321
+Fatiamento [i:f:p] [::] ( i = inicio f = fim p = passo) #Passo é de quantos em quantos caracteres
+ele vai pular (por padrão 1)
+Obs.: a função len retorna a qtd 
+de caracteres da str
+"""
+
+variavel = 'Olá mundo'
+print(variavel[5]) #Vai retorna o índice 5 
+print(variavel[5:]) #Se eu omitir o final, ele vai até o fim da string 
+print(variavel[:5]) #Se eu omitir o começo, ele vai do começo até o 5 
+print(variavel[5:8]) #Começa no índice 5 e para no 7 
+print(len(variavel)) #Conta a quantidade de caracteres
+print(variavel[0:9:2]) #Pula um e pega o segundo
+print(variavel[0:9:3]) #Pula um, pula dois e pega o terceiro e assim vai
+print(variavel[::-1]) # Inverte a string, pq ele começa da direita para a esquerda -
+print(variavel[-1:-10:-1]) #Por começar da direita, tem que passar os indices negativos 
