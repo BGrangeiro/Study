@@ -1,0 +1,12 @@
+# Interpolação de string com % em Python
+#s - string
+#f - float
+#d - um numero inteiro do proprio python
+#x e X - Hexadecimal (ABCDEF0123456789)
+# O valor passado se chama Placeholders
+
+nome = 'Bruno'
+preco = 129.92534
+variavel = '%s está devendo %.2f' % (nome, preco)
+print(variavel)
+print('O hexadecimal de B %d é %03X' %(231, 231))
