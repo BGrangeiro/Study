@@ -1,0 +1,36 @@
+/*
+
+----------HTML HTML HTML HTML HTML---------
+
+- Tabelas
+. <table></table> - criar uma tabela
+. Primeiro você cria a linha e depois cria as colunas dentro das linhas!
+. A primeira linha define a quantidade de colunas que vai ter
+. <tr></tr> - criar as linhas
+. <td></td> - criar as colunas  
+. <th></th> - Cria o cabeçalho
+. <thead></thead> - VIsualmente não muda nada, mas especifica para o navegador que é o cabeçalho
+(Colocar a primeira linha, dos cabeçalhos)
+.<tbody></tbody> - colocar o restante da tabela
+
+- Formulários (Pegar informações do usuário)
+(eu tenho que criar um grupo de formulario, pode ter varios em um site)
+.<form></form> - criar um formulario
+(Com HTML e CSS não é possivel receber as informações do usuario, apenas criar o formulario)
+(Dois atributos podem ir dentro do <form>, action="" (para onde vai a informação
+) e method="" (metodo de envio, existem dois, o GET (consegue ver as info nas url da pagina) e o POST
+(não consegue ver as informações na url da pagina)))
+
+
+*/
+
+
+/*
+
+----------CSS CSS CSS CSS CSS CSS----------
+
+. hover - quando passar o mouse por cima, voce adiciona um atributo que aparece
+ex: #tabela tr:hover {background-color: aqua;} (Quando passa o mouse, a cor muda para aqua)
+
+
+*/
