@@ -5,5 +5,10 @@ git add . - Adiciona o monitoriamento de todos os arquivos;
 git log - Mostra as alterações feitas;
 git (nome_do_comando) -m help - Mostra todos os comandos possíveis para usar junto com o 
 primeiro comando;
+git branch - Mostra as branchs que existem;
+git branch (nome_da_nova_branch) - Cria uma nova branch;
+git switch (nome_da_branch) - Troca de branch;
+git switch -c (nome_da_branch) - Cria e troca automaticamente para a branch criada;
+git merge (nome_da_branch) - Dentro da branch que deseja fazer o merge
 
 Arquivos no tom de LARANJA - Arquivos que foram alterados, porém não foi salvo o commit
