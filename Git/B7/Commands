@@ -10,5 +10,6 @@ git branch (nome_da_nova_branch) - Cria uma nova branch;
 git switch (nome_da_branch) - Troca de branch;
 git switch -c (nome_da_branch) - Cria e troca automaticamente para a branch criada;
 git merge (nome_da_branch) - Dentro da branch que deseja fazer o merge
+git branch -d (nome_da_branch) - Deleta uma branch
 
 Arquivos no tom de LARANJA - Arquivos que foram alterados, porém não foi salvo o commit
