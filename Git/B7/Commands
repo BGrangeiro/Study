@@ -1,1 +1,9 @@
+git init - iniciar um novo repositório;
+git status - Verifica se já tem um git iniciado na pasta;
+git add (nome_do_arquivo) - Adiciona o monitoriamento do arquivo específico;
+git add . - Adiciona o monitoriamento de todos os arquivos;
+git log - Mostra as alterações feitas;
+git (nome_do_comando) -m help - Mostra todos os comandos possíveis para usar junto com o 
+primeiro comando;
 
+Arquivos no tom de LARANJA - Arquivos que foram alterados, porém não foi salvo o commit
