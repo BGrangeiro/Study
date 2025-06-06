@@ -1,0 +1,17 @@
+velocidade= 90
+local_carro = 102
+
+RADAR_1=60
+LOCAL_1= 100
+RADAR_RENDE = 1
+
+if velocidade > RADAR_1:
+    print('Velocidade excedida no RADAR 1!')
+
+#Definir o KM 100 (de 99 até 101)   
+
+if local_carro >= (LOCAL_1 - RADAR_RENDE) and\
+    local_carro <= (LOCAL_1 + RADAR_RENDE)and\
+        velocidade > RADAR_1: 
+    print('Você foi multado EM RADAR 1!')
+    
