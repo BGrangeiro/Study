@@ -43,11 +43,9 @@ menos escreva "Seu nome é curto"; se tiver entre 5 e 6 letras, escreva
 "Seu nome é normal"; maior que 6 escreva "Seu nome é muito grande". 
 """
 
-nome = input('Digite o seu primeiro nome: ')
-nome_quantidade = len(nome)
-if nome_quantidade <= 4:
-    print('O sue nome é muito pequeno')
-elif nome_quantidade >= 5 and nome_quantidade <= 6:
-    print('O seu nome é um nome médio')
-else:
-    print('O seu nome é um nome grande!')
+tamanho = len(input('Digite o seu primeiro nome: '))
+print(
+    f'o seu nome é curto' if tamanho < 4
+    else f'o seu nome é médio' if tamanho <= 6
+    else f'O seu nome é grande'
+)
