@@ -1,0 +1,28 @@
+import lorem
+#.count() - conta quantos caractres de cada tem em uma frase
+
+texto = lorem.sentence().lower()
+print(texto)
+i = 0
+letra_que_mais_apareceu = 0
+qnt_espacos = 0
+
+while i < len(texto):
+    letra_atual = texto[i]
+    contador_letra = texto[:i+1]
+
+    letra_que_apareceu = contador_letra.count(letra_atual)
+
+    if letra_atual == ' ':
+        qnt_espacos+=1
+        i+=1
+        continue
+
+    if letra_que_apareceu > letra_que_mais_apareceu:
+        letra_que_mais_apareceu = letra_que_apareceu
+
+    print(letra_atual, letra_que_apareceu)
+    i+=1
+
+print(letra_que_mais_apareceu)
+print(qnt_espacos)
